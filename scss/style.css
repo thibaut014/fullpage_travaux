@@ -1,0 +1,163 @@
+#myMenu {
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  list-style-type: none;
+}
+#myMenu li {
+  background-color: grey;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+#myMenu li.active {
+  background-color: rgb(234, 112, 234);
+}
+#myMenu a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+#fullpage h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  z-index: 999;
+  left: 43%;
+}
+#fullpage .s1 {
+  background-color: rgb(46, 142, 253);
+}
+#fullpage .s1 h1 {
+  margin-top: -5%;
+}
+#fullpage .s1 button {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  background-color: rgb(107, 231, 107);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-left: 38%;
+  margin-top: 6%;
+  display: flex;
+  width: 300px;
+  border: none;
+  cursor: pointer;
+}
+#fullpage .sl1 {
+  background-image: url(../img/galaxy1.jpg);
+  background-size: cover;
+  position: relative;
+}
+#fullpage .sl1 h2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+#fullpage .sl2 {
+  background-image: url(../img/galaxy2.jpg);
+  background-size: cover;
+  position: relative;
+}
+#fullpage .sl2 h2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+#fullpage .sl2 button {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  background-color: rgb(107, 231, 107);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-left: 38%;
+  display: flex;
+  width: 300px;
+  border: none;
+  cursor: pointer;
+}
+#fullpage .sl3 {
+  background-image: url(../img/galaxy3.jpg);
+  background-size: cover;
+  position: relative;
+}
+#fullpage .sl3 h2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+#fullpage .sl4 {
+  background-image: url(../img/galaxy4.jpg);
+  background-size: cover;
+  position: relative;
+}
+#fullpage .sl4 h2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+#fullpage .slone {
+  background-color: red;
+}
+#fullpage .slone h2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+#fullpage .sltwo {
+  background-color: rgb(252, 133, 221);
+}
+#fullpage .sltwo h2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+#fullpage .slthree {
+  background-color: coral;
+}
+#fullpage .slthree h2 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+#fullpage .slthree button {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  background-color: rgb(107, 231, 107);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-left: 38%;
+  display: flex;
+  width: 300px;
+  border: none;
+  cursor: pointer;
+}
+#fullpage .s4 {
+  background-color: rgb(27, 219, 158);
+}
+#fullpage .s4 button {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  background-color: rgb(115, 107, 231);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-left: 38%;
+  margin-top: 6%;
+  display: flex;
+  width: 300px;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

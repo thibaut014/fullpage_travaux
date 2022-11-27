@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.css" integrity="sha512-FKlWnaJrtBEqH+gNy8kvp+/61S+8iOKb5tG+EKCQ3Fc3iUYr9MvnywpkZBcuNKrxQxlnZYpNwDgkZ2atX7wVVg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="myMenu">
+        <li data-menuanchor="section1" class="active"><a href="#section1">page 1</a></li>
+        <li data-menuanchor="section2"><a href="#section2">page 2</a></li>
+        <li data-menuanchor="section3"><a href="#section3">page 3</a></li>
+        <li data-menuanchor="section4" id="page4"><a href="#section4">page 4</a></li>
+    </ul>
+
+
+    <div id="fullpage">
+
+        <div class="section s1">
+            <h1>section1</h1>
+            <button id="moveTo1">GO SLIDE 2</button>
+        </div>
+
+        <div class="section s2">
+            <h1>section2</h1>
+
+                <div data-anchor="slide1" class="slide sl1">
+                    <h2>Slide 1</h2>
+                </div>
+
+                <div data-anchor="slide2" class="slide sl2">
+                    <h2>Slide 2</h2>
+                    <button id="moveTo2">GO SLIDE 3</button>
+                </div>
+
+                <div data-anchor="slide3" class="slide sl3">
+                    <h2>Slide 3</h2>
+                </div>
+
+                <div data-anchor="slide4" class="slide sl4">
+                    <h2>Slide 4</h2>
+                </div>
+
+        </div>
+
+        <div class="section s3">
+            <h1>section3</h1>
+
+                <div data-anchor="slide1" class="slide slone">
+                    <h2>Slide 1</h2>
+                </div>
+
+                <div data-anchor="slide2" class="slide sltwo">
+                    <h2>Slide 2</h2>
+                </div>
+
+                <div data-anchor="slide3" class="slide slthree">
+                    <h2>Slide 3</h2>
+                    <button id="silentMoveTo1">GO SECTION 4</button>
+                </div>
+        </div>
+
+        <div class="section s4">
+            <h1>section4</h1>
+            <button id="silentMoveTo2">accueil</button>
+        </div>
+
+    </div>
+
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.1.min.js"
+			  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js" integrity="sha512-rNf09cQHIWzD8BU37lIb3rInygeWXW2hVqJ7niVtTPXWuVR3aFiph1eFIeDiEQV8J45u0qfp7ng8I3TzJHY4Eg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/fpage.js"></script>
+    
+</body>
+</html>

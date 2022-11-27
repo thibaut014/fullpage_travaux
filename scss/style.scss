@@ -1,0 +1,208 @@
+#myMenu{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    list-style-type: none;
+
+    li{
+        background-color: grey;
+        width: 100px;
+        margin: 10px;
+        border-radius: 5px;
+
+    }
+
+    li.active{
+        background-color: rgb(234, 112, 234);
+    }
+
+    a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+#fullpage{
+
+    h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        z-index: 999;
+        left: 43%;
+    }
+
+    .s1{
+
+        background-color: rgb(46, 142, 253);
+
+        h1{
+            margin-top: -5%;
+        }
+
+        button{
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            background-color: rgb(107, 231, 107);
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            margin-left: 38%;
+            margin-top: 6%;
+            display: flex;
+            width: 300px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .sl1{
+        background-image: url(../img/galaxy1.jpg);
+        background-size: cover;
+        position: relative;
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+    }
+
+    .sl2{
+        background-image: url(../img/galaxy2.jpg);
+        background-size: cover;
+        position: relative;
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+
+        button{
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            background-color: rgb(107, 231, 107);
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            margin-left: 38%;
+            display: flex;
+            width: 300px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .sl3{
+        background-image: url(../img/galaxy3.jpg);
+        background-size: cover;
+        position: relative;
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+    }
+
+    .sl4{
+        background-image: url(../img/galaxy4.jpg);
+        background-size: cover;
+        position: relative;
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+    }
+
+
+    .slone{
+        background-color: red;
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+    }
+
+    .sltwo{
+        background-color: rgb(252, 133, 221);
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+    }
+
+    .slthree{
+        background-color: coral;
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+
+        button{
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            background-color: rgb(107, 231, 107);
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            margin-left: 38%;
+            display: flex;
+            width: 300px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+
+
+    .s4{
+
+        background-color: rgb(27, 219, 158);
+
+        button{
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            background-color: rgb(115, 107, 231);
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            margin-left: 38%;
+            margin-top: 6%;
+            display: flex;
+            width: 300px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+
+
+
+
+
+
+}
